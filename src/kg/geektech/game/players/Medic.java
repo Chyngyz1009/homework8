@@ -12,7 +12,7 @@ public class Medic extends Hero {
 
     @Override
     public void applySuperAbility(Boss boss, Hero[] heroes) {
-        if (this.getHealth() > 0) {
+        if (getHealth() > 0) {
             for (int i = 0; i < heroes.length; i++) {
                 heroes[i].setHealth(heroes[i].getHealth() + healPoints);
             }

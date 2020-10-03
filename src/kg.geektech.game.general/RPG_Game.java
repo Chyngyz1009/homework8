@@ -81,12 +81,12 @@ public class RPG_Game {
     }
 
     private static void printStatistics(Boss boss, Hero[] heroes) {
-        System.out.println("_________________");
+        System.out.println("_______________________");
         System.out.println("Boss health: " + boss.getHealth());
         for (int i = 0; i < heroes.length; i++) {
             System.out.println(heroes[i].getClass().getSimpleName()
                     + " health: " + heroes[i].getHealth());
         }
-        System.out.println("_________________");
+        System.out.println("_______________________");
     }
 }
