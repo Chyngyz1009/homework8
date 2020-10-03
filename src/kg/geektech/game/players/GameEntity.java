@@ -3,7 +3,7 @@ package kg.geektech.game.players;
 public abstract class GameEntity {
     private int health;
     private int damage;
-
+    //
     public GameEntity(int health, int damage) {
         this.health = health;
         this.damage = damage;

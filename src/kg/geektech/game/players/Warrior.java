@@ -13,8 +13,6 @@ public class Warrior extends Hero {
         setDamage(10);
         Random s = new Random();
         int n = s.nextInt(2) + 2;
-        if (getHealth() > 0) {
-            setDamage(getDamage() * n);
-        }
+        setDamage(getDamage() * n);
     }
 }
